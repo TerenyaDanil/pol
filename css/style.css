@@ -1197,6 +1197,10 @@ ol.counter li:before {
     margin: 0px 0px 60px 0px;
   }
 
+  .beton__content {
+    padding: 50px 0px 00px 0px;
+  }
+
   .beton__img img {
     max-width: 600px;
   }
