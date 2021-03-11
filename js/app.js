@@ -9,7 +9,7 @@ var swiper = new Swiper('.rev__slider', {
 	simulateTouch: true,
 	centeredSlides: true,
 	slidesPerView: 1,
-	spaceBetween: 30,
+	spaceBetween: 100,
 	speed: 600,
 	navigation: {
 		nextEl: '.swiper-button-next',
@@ -20,6 +20,18 @@ var swiper = new Swiper('.rev__slider', {
 	},
 
 })
+
+
+burger = document.querySelector('.header__burger');
+menu = document.querySelector('.header__nav');
+
+dark = document.querySelector('.bg-mob');
+
+burger.onclick = function () {
+	burger.classList.toggle('active');
+	dark.classList.toggle('active');
+	menu.classList.toggle('active');
+}
 var ua = window.navigator.userAgent;
 var msie = ua.indexOf("MSIE ");
 var isMobile = { Android: function () { return navigator.userAgent.match(/Android/i); }, BlackBerry: function () { return navigator.userAgent.match(/BlackBerry/i); }, iOS: function () { return navigator.userAgent.match(/iPhone|iPad|iPod/i); }, Opera: function () { return navigator.userAgent.match(/Opera Mini/i); }, Windows: function () { return navigator.userAgent.match(/IEMobile/i); }, any: function () { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); } };
