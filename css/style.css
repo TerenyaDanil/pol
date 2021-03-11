@@ -700,6 +700,10 @@ ol.counter li:before {
   left: -150px;
 }
 
+.beton__content {
+  padding: 0px 0px 400px 0px;
+}
+
 .beton__img {
   position: relative;
   text-align: center;
@@ -759,7 +763,7 @@ ol.counter li:before {
 }
 
 .pluses__content {
-  padding: 10px 0px;
+  padding: 10px 0px 300px;
 }
 
 .pluses__text {
