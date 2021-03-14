@@ -687,6 +687,26 @@ body._lock {
   position: relative;
 }
 
+.calc__btn {
+  margin: 40px 0 0 0;
+  padding: 30px 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+  border-radius: 20px;
+  border: 2px solid #cc9029;
+  background-color: #f3b54b;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .calc__content {
   padding: 10vmax 0px;
 }
